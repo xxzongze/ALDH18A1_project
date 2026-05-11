@@ -249,7 +249,7 @@ fig.text(0.5, 0.015,
          ha='center', fontsize=5.5, color='#999999', fontstyle='italic')
 
 # ---------------------------------------------------------------------------
-outpath = '/Users/hezongze/ALDH18A1_project/03_main_figures_ALDH18A1/fig_venn_kegg_narrowing.png'
+outpath = './fig_venn_kegg_narrowing.png'
 fig.savefig(outpath, dpi=300, facecolor='white', edgecolor='none')
 plt.close(fig)
 print(f'Saved: {outpath}')

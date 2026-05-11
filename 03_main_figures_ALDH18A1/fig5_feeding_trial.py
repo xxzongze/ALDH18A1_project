@@ -260,7 +260,7 @@ ax_e.annotate(f'P_interaction = 0.042', xy=(0.5, 0.15), xycoords='axes fraction'
               bbox=dict(boxstyle='round,pad=0.4', facecolor='white', edgecolor='#D41159', lw=1))
 
 # ---------------------------------------------------------------------------
-outpath = '/Users/hezongze/ALDH18A1_project/03_main_figures_ALDH18A1/fig5_feeding_trial.png'
+outpath = './fig5_feeding_trial.png'
 # Data source annotation
 fig.text(0.5, 0.008, 'Data: All values = expected patterns from 2x2 factorial feeding trial (Exp 3.1 pending). n=8/group, 25-75 kg, ~60 days. Statistical model: lmer(y ~ Breed*Diet + (1|Block)). Interaction p-values are hypothetical and for illustration only.', ha='center', fontsize=5.5, color='#999999', fontstyle='italic')
 fig.savefig(outpath, dpi=300, facecolor='white', edgecolor='none')

@@ -230,7 +230,7 @@ ax_d.plot([10.5, 11.5], [0.1, 0.1], color='#333333', lw=2)
 ax_d.text(11.0, 0.25, '50 um', ha='center', fontsize=6)
 
 # ---------------------------------------------------------------------------
-outpath = '/Users/hezongze/ALDH18A1_project/03_main_figures_ALDH18A1/fig4_crosstalk_myotubes.png'
+outpath = './fig4_crosstalk_myotubes.png'
 # Data source annotation
 fig.text(0.5, 0.008, 'Data: All values = expected patterns from conditioned medium crosstalk experiment (Exp 2.2 pending). SUnSET method per Schmidt et al. 2009. n=3 independent CM preparations. Representative IF images = schematic illustrations.', ha='center', fontsize=5.5, color='#999999', fontstyle='italic')
 fig.savefig(outpath, dpi=300, facecolor='white', edgecolor='none')

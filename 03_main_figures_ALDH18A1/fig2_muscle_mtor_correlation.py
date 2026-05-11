@@ -195,7 +195,7 @@ fig.text(0.5, 0.010,
          'Pro values on x-axis are illustrative, not from measured data.',
          ha='center', fontsize=5.5, color='#D41159', fontstyle='italic')
 
-outpath = '/Users/hezongze/ALDH18A1_project/03_main_figures_ALDH18A1/fig2_muscle_mtor_correlation.png'
+outpath = './fig2_muscle_mtor_correlation.png'
 fig.savefig(outpath, dpi=300, facecolor='white', edgecolor='none')
 plt.close(fig)
 print(f'Saved: {outpath}')

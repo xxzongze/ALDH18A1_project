@@ -232,7 +232,7 @@ for x, y, c, label in legend_items:
     ax.text(x + 0.35, y, label, fontsize=6, va='center', color='#333333')
 
 # ---------------------------------------------------------------------------
-outpath = '/Users/hezongze/ALDH18A1_project/03_main_figures_ALDH18A1/fig6_working_model.png'
+outpath = './fig6_working_model.png'
 # Data source annotation
 fig.text(0.5, 0.008, 'Working model integrating: ALDH18A1/P5CS biochemistry (Perez-Arellano et al. 2010), Pro-EPRS-mTORC1 non-classical pathway (Kim et al. 2015; Arif et al. 2017), mTORC1 lysosomal translocation (Sancak et al. 2008). Data callouts indicate nodes supported by measured data in this study.', ha='center', fontsize=5, color='#555555', fontstyle='italic')
 fig.savefig(outpath, dpi=300, facecolor='white', edgecolor='none')

@@ -230,7 +230,7 @@ legend_ax.set_xlim(0, 1)
 legend_ax.set_ylim(0, 1)
 
 # ---------------------------------------------------------------------------
-outpath = '/Users/hezongze/ALDH18A1_project/03_main_figures_ALDH18A1/fig3_hepatocyte_kd.png'
+outpath = './fig3_hepatocyte_kd.png'
 # Data source annotation
 fig.text(0.5, 0.008, 'Data: All values = expected patterns from siRNA-ALDH18A1 KD in porcine primary hepatocytes (Exp 2.1 pending). n=3 independent hepatocyte isolations. Error bars = SEM. Pro rescue and B6 cofactor experiments test the branch-point model directly.', ha='center', fontsize=5.5, color='#999999', fontstyle='italic')
 fig.savefig(outpath, dpi=300, facecolor='white', edgecolor='none')

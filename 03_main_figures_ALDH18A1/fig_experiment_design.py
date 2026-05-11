@@ -152,6 +152,6 @@ ax.annotate('', xy=(5.5, 5.15), xytext=(5.9, 5.15),
 ax.annotate('', xy=(7.3, 5.15), xytext=(6.9, 5.15),
             arrowprops=dict(arrowstyle='->', color=C_PHASE3, lw=1), zorder=2)
 
-fig.savefig('/Users/hezongze/ALDH18A1_project/03_main_figures_ALDH18A1/fig_experiment_design.png', dpi=300, facecolor='white')
+fig.savefig('./fig_experiment_design.png', dpi=300, facecolor='white')
 plt.close(fig)
-print('Saved: /Users/hezongze/ALDH18A1_project/03_main_figures_ALDH18A1/fig_experiment_design.png')
+print('Saved: ./fig_experiment_design.png')
